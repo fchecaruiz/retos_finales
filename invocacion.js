@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var funcion_is_even_1 = require("./funcion_is_even");
+var buclesFor_1 = require("./buclesFor");
+require("colors");
+var array1 = ["casa", "coche", "ciudad", "cesta"];
+var array2 = ["Barco", "Baca", "bicicleta", "Balon", "Bisiesto", "Brasil"];
+var array3 = ["Venezuela", "Veneno", "Voltaje"];
+var total_array1 = (0, buclesFor_1.add)(array1);
+console.log("El numero de textos de array1 es de => ".concat(total_array1).yellow);
+(0, funcion_is_even_1.isEven)(total_array1);
+var total_array2 = (0, buclesFor_1.add)(array2);
+console.log("El numero de textos de array1 es de => ".concat(total_array2).yellow);
+(0, funcion_is_even_1.isEven)(total_array1);
+var total_array3 = (0, buclesFor_1.add)(array3);
+console.log("El numero de textos de array1 es de => ".concat(total_array3).yellow);
+(0, funcion_is_even_1.isEven)(total_array1);

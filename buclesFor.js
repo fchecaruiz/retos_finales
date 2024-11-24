@@ -1,4 +1,7 @@
+"use strict";
 // function evenNumbers(num:number) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.add = add;
 //     for (let index = 0; index < num ; index++) {
 //         if (index % 2 !== 0){
 //             console.log(index)
@@ -6,7 +9,7 @@
 //     }
 // }
 // evenNumbers(100)
-////////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////////
 // let array: string[] = ["pedro", "juan", "dario", "felipe"];
 // function myRevert(myArr: string[]): string[] {
 //     let array_inverso: string[] = [];
@@ -18,7 +21,7 @@
 //     return array_inverso;
 // }
 // myRevert(array);
-////////////////////////////////////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////////
 // let colores :string[] = ["rojo","negro","blanco", "naranja", "amarillo", "verde", "azul", "añil", "violeta", "morado"];
 // function isRainbow(colors: string[]): void {
 // for (let index = 0; index < colors.length; index++) {
@@ -34,12 +37,13 @@
 // }
 // isRainbow(colores)
 ///////////////////////////////////////////////////////////////////////////////////////////////
-var textos = ["hola", "juan", "typescript", "jaleo"];
-function add1(myWords) {
+//let textos = ["hola", "juan", "typescript", "jaleo"];
+function add(myWords) {
     var num_palabras = 0;
     for (var i = 0; i < myWords.length; i++) {
         num_palabras += myWords[i].length;
     }
     return num_palabras;
 }
-console.log(add1(textos));
+//console.log(add(textos)); 
+///////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,6 +1,6 @@
 import "colors";
 
-function isEven(num:number){
+export function isEven(num:number){
     if (num % 2 == 0){
     console.log("El numero introducido es numero par".blue)
     }
@@ -8,4 +8,4 @@ function isEven(num:number){
     console.log("El numero introducido es numero impar".red)
     }
 }
-isEven(25)
+//isEven(28)
