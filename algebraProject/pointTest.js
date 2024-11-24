@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var point_1 = require("./point");
+var mYPoint = new point_1.Point(40, 60);
+console.log(mYPoint.getx());
+console.log();
+console.log(mYPoint.gety());
+mYPoint.setx(100);
+console.log();
+mYPoint.sety(200);
+console.log(mYPoint.getx());
+console.log(mYPoint.gety());
