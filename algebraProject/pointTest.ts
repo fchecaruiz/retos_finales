@@ -1,6 +1,6 @@
 import { Point} from "./point";
 import { calculateDistance } from "./calculateDistance";
-console.log('El código está corriendo');
+import { calcularQuadrant } from "./calcularQuadrant";
 
 
 
@@ -21,6 +21,15 @@ console.log();
 console.log(mYPoint.getx());
 console.log();
 console.log(mYPoint.gety()); 
+console.log()
     
 
 console.log(calculateDistance(distancia_X2_Y2))
+console.log();
+
+console.log(calcularQuadrant(0, 0));  
+console.log(calcularQuadrant(-5, -10)); 
+console.log(calcularQuadrant(-5, 10)); 
+console.log(calcularQuadrant(-5, -10)); 
+console.log(calcularQuadrant(5, -10)); 
+

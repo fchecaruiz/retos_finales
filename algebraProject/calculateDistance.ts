@@ -5,8 +5,10 @@ export function calculateDistance(anotherPoint: Point): number {
 
     let x1:number = 40
     let y1:number = 20;
-    let x2: number = anotherPoint.getx();
-    let y2: number = anotherPoint.gety(); 
+    // let x2: number = anotherPoint.getx();
+    // let y2: number = anotherPoint.gety(); 
+    let x2:number = 12;
+    let y2:number = 20;
   
     let distancia = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
 
